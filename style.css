@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Arial, Tahoma, Sans-serif;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.title-1 {
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.title-1 + p {
+	margin: 0 auto 100px;
+	width: 700px;
+	color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+section {
+	padding: 100px 0;
+}
+
+section:after,
+section:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/***
+**** HEADER
+***/
+.header {
+	position: fixed;
+	top: 20px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.90);
+	padding: 30px 0;
+}
+
+.logo {
+	font-weight: 300;
+	color: #fff;
+	padding: 0 0 20px;
+	display: none;
+}
+
+.header li {display: inline-block;}
+
+.header a {
+	display: inline-block;
+	padding: 0 20px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.highlight {
+	box-shadow: inset 0 -10px 15px rgba(0, 0, 0, 0.2);
+	padding: 190px 0 150px;
+	background: url(img/highlight.jpg) fixed no-repeat center -300px;
+	background-size: cover;
+	text-align: center;
+	color: #000;
+}
+
+.highlight h1 {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.highlight p {
+	width: 900px;
+	margin: auto;
+	padding: 50px 0;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+.highlight .btn {font-size: 20px;}
+
+/***
+**** FEATURES
+***/
+.feature {
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+
+.feature h2 {
+	font-size: 18px;
+}
+
+.feature p,
+.more-info p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 1.5;
+	margin: 10px 0 25px;
+}
+
+/***
+**** More Links
+***/
+.more-links {
+	background-color: #f0eeed;
+	text-align: center;
+}
+
+.more-lnk {color: #000;}
+
+.more-info {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin-right: 50px;
+}
+.more-info:last-child {margin-right: 0;}
+
+.more-info figure {
+	overflow: hidden;
+	height: 200px;
+	display: block;
+	margin-bottom: 30px;
+}
+.more-info img {width: 400px;}
+
+/***
+**** offer
+***/
+.offer {
+	text-align: center;
+}
+
+.text {
+	width: 450px;
+	float: left;
+	text-align: left;
+}
+
+.offer img {
+	float: right;
+	width: 500px;
+	margin-left: 40px;
+}
+
+.offer h1 {
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.offer p {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+
+/***
+**** Botoes
+***/
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: 3px solid;
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+
+
+/***
+**** FOOTER
+***/
+.footer {
+	padding: 20px;
+	clear: both;
+	font-size: 14px;
+	font-weight: 700;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
