@@ -1,0 +1,17 @@
+body {
+	background-color: green;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		background-color: red;
+		color: #fff;
+	}
+}
+
+@media screen and (orientation : landscape) {
+	body {
+		background-color: orange;
+		color: #fff;
+	}
+}

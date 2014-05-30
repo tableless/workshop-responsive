@@ -1,0 +1,107 @@
+
+
+/** VERSAO TAMANHO MEDIO - TABLET **/
+@media screen and (max-width: 900px) {
+
+	html {
+		font-size: 90%;
+	}
+
+	.title-1 {
+		font-size: 2.5rem; /* contexto / 16px = rem */
+	}
+
+	.title-1 + p {
+		margin: 0 auto 50px;
+		width: 80%;
+	}
+
+	/***
+	**** HEADER
+	***/
+	.header {
+		position: static;
+		padding: 0;
+	}
+
+	.header a,
+	.header li {
+		display: block;
+	}
+
+	.header a {
+		padding: 15px 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.header li:last-child a {border-bottom: none;}
+
+
+	/***
+	**** DESTAQUE
+	***/
+	.highlight {
+		padding: 50px 0;
+	}
+
+	.highlight p {width: 80%; padding: 15px 0 25px;}
+
+
+	section {
+		padding: 50px 0;
+	}
+
+	.feature {
+		width: 49%;
+		text-align: center;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+		padding-bottom: 40px;
+	}
+
+	.feature:last-child {border: none;}
+
+	.more-info {
+		width: 40%;
+		padding-bottom: 25px;
+		margin-right: 0;
+	}
+
+	.more-info p {width: 80%;}
+
+	.text {
+		width: 100%;
+	}
+
+	.offer img {
+		float: none;
+		max-width: 100%;
+		width: auto;
+		margin: 0 0 15px;
+	}
+
+	.offer h1,
+	.offer p {
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+
+}
+
+
+/** VERSAO PEQUENA - CELULARES **/
+@media screen and (max-width: 400px) {
+
+	html {
+		font-size: 75%;
+	}
+
+	.feature,
+	.more-info {
+		width: 100%;
+	}
+
+
+}
